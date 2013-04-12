@@ -24,7 +24,7 @@ namespace Nursery.Data.SQLServer
             }
         }
 
-        public void disconnect(SqlConnection connection, SqlDataReader reader, SqlCommand command)
+        protected void disconnect(SqlConnection connection, SqlDataReader reader, SqlCommand command)
         {
             try{
                 if (connection != null)

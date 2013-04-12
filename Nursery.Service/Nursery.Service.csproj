@@ -40,6 +40,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nursery.Data.MySQL\Nursery.Data.MySQL.csproj">
+      <Project>{84E9DE1B-A340-4C0B-A5D6-D72045C07CB3}</Project>
+      <Name>Nursery.Data.MySQL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nursery.Entity\Nursery.Entity.csproj">
+      <Project>{11BDDEDA-6699-4B7E-A967-2F66F96141E2}</Project>
+      <Name>Nursery.Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

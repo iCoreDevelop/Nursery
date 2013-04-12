@@ -14,7 +14,7 @@ namespace Nursery.Data.MySQL
             int ID = 0;
             try
             {
-                string sql = "SELECT ID FROM Usuario WHERE UserName = @UserName AND Password = @Pass AND Status = @Status";
+                string sql = "SELECT ID FROM User WHERE UserName = @UserName AND Password = @Password AND Status = @Status";
                 command = new MySqlCommand();
                 command.Connection = connection;
                 command.CommandType = System.Data.CommandType.Text;
@@ -38,7 +38,6 @@ namespace Nursery.Data.MySQL
             }
             finally
             {
-                reader.Dispose();
                 disconnect(connection, reader, command);
             }
         }

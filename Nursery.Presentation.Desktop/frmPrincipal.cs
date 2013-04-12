@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Nursery.Presentation.Desktop
 {
-    public partial class Form1 : Form
+    public partial class frmPrincipal : Form
     {
-        public Form1()
+        public frmPrincipal()
         {
             InitializeComponent();
         }

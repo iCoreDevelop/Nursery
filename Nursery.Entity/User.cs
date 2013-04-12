@@ -11,5 +11,13 @@ namespace Nursery.Entity
         public string UserName { get; set; }
         public string Password { get; set; }
         public string Status { get; set; }
+
+        public void Dispose()
+        {
+            ID = 0;
+            UserName = "";
+            Password = "";
+            Status = "Inactivo";
+        }
     }
 }
