@@ -26,8 +26,8 @@ namespace Nursery.Data.SQLServer.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS2008;Initial Catalog=Perifericos;Persist Security Info=Tr" +
-            "ue;User ID=sa;Password=IrUb0mN0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS2008;Initial Catalog=Nursery;Persist Security Info=True;U" +
+            "ser ID=sa;Password=IrUb0mN0")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));
