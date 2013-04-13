@@ -57,7 +57,7 @@ namespace Nursery.Presentation.Desktop
                 }
                 else
                 {
-                    MessageBox.Show(this, "Usuario o contraseña inválido", "Invalid Log On", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(this, "Usuario o contraseña inválido", "Invalid Log In", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
