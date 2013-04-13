@@ -26,7 +26,7 @@ namespace Nursery.Data.MySQL.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;Persist Security Info=True;User Id=root;password=root;database=n" +
+        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;User Id=root;password=root;Persist Security Info=True;database=n" +
             "ursery")]
         public string ConnectionString {
             get {
